@@ -7,7 +7,7 @@ import db
 
 
 # Замените "YOUR_BOT_TOKEN" на токен, который вы получили от BotFather
-API_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXX'
+API_TOKEN = 'YOUR_BOT_TOKEN'
 
 # Объект бота
 bot = Bot(token=API_TOKEN)
