@@ -4,6 +4,7 @@ import logging
 import first_bot_functions
 import db
 
+#
 nest_asyncio.apply()
 
 # Включаем логирование, чтобы не пропустить важные сообщения
