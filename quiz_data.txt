@@ -1,0 +1,52 @@
+quiz_data = [
+    {
+        'question': 'Что такое Python?',
+        'options': ['Язык программирования', 'Тип данных', 'Музыкальный инструмент', 'Змея на английском'],
+        'correct_option': 0
+    },
+    {
+        'question': 'Какой тип данных используется для хранения целых чисел?',
+        'options': ['int', 'float', 'str', 'natural'],
+        'correct_option': 0
+    },
+    {
+        'question': 'Как вывести текст на экран в Python?',
+        'options': ['echo("Hello")', 'print("Hello")', 'console.log("Hello")', 'System.out.println("Hello")'],
+        'correct_option': 1
+    },
+    {
+        'question': 'Как объявить переменную в Python?',
+        'options': ['var x = 5', 'x = 5', 'int x = 5', 'variable x = 5'],
+        'correct_option': 1
+    },
+    {
+        'question': 'Как получить длину списка?',
+        'options': ['length(list)', 'len(list)', 'list.length()', 'list.size'],
+        'correct_option': 1
+    },
+    {
+        'question': 'Как правильно написать условный оператор if?',
+        'options': ['if (x > 0) {}', 'if x > 0 then', 'if x > 0:', 'if: x > 0'],
+        'correct_option': 2
+    },
+    {
+        'question': 'Какой цикл используется для итерации по последовательности?',
+        'options': ['while', 'loop', ' for', 'repeat'],
+        'correct_option': 2
+    },
+    {
+        'question': 'Какой оператор используется для обработки исключений?',
+        'options': ['catch', 'error', 'rescue', 'try-except'],
+        'correct_option': 3
+    },
+    {
+        'question': 'Как объявить функцию в Python?',
+        'options': ['def my_func():', 'function my_func()', 'func my_func()', 'void my_func()'],
+        'correct_option': 0
+    },
+    {
+        'question': 'Как импортировать модуль math?',
+        'options': ['import math', 'include math', 'require math', 'using math'],
+        'correct_option': 0
+    },
+]
