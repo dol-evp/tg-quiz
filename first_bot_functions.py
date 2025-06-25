@@ -129,7 +129,7 @@ async def cmd_quiz(message: types.Message):
 
 # Хэндлер на команду /stat
 @dp.message(F.text=="Статистика")
-@dp.message(Command("quiz"))
+@dp.message(Command("stat"))
 async def cmd_stat(message: types.Message):
     # Отправляем новое сообщение без кнопок
     await message.answer(f"Давайте посмотрим статистику вашей игры")
